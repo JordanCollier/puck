@@ -80,10 +80,10 @@ h1 {
 
 p {
   margin: 0 0 0 5px;
-  color: #D5E1A3; }
+  color: #3F7CAC; }
 
 .about {
   margin: 0 auto;
-  height: 400px;
-  width: 800px;
+  height: 100%;
+  width: 80%;
   background-color: #BDC4A7; }
