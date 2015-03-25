@@ -25,6 +25,10 @@ p {
 .about {
   margin: 0 auto;
   height: 100%;
-  width: 80%;
+  max-width: 800px;
   background-color: $sage;
+}
+
+img {
+  max-width: 100%;
 }

@@ -85,5 +85,8 @@ p {
 .about {
   margin: 0 auto;
   height: 100%;
-  width: 80%;
+  max-width: 800px;
   background-color: #BDC4A7; }
+
+img {
+  max-width: 100%; }
