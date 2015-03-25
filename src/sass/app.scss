@@ -1,11 +1,30 @@
 @import "reset";
 @import "colors";
 @import "type";
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
 
 *, *:before, *:after {
   box-sizing: border-box;
 }
 body {
+  font-family: Pacifico;
   background: #222;
-  color: #93DE7F;
+  color: $blue;
+}
+
+h1 {
+  color: $blue;
+  margin: 0 0 0 50px;
+}
+
+p {
+  margin: 0 0 0 5px;
+  color: $green;
+}
+
+.about {
+  margin: 0 auto;
+  height: 400px;
+  width: 800px;
+  background-color: $sage;
 }
